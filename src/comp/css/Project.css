@@ -1,0 +1,80 @@
+.project {
+    width: 100vw;
+    overflow-x: hidden;
+    background: #e7ebf1;
+    box-sizing: border-box;
+    color: #2a4b6ac4;
+    position: relative;
+    padding: 10px;
+    z-index: 1;
+}
+
+.project .box {
+    margin-top: 40px;
+}
+
+
+.swiper {
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 210px;
+    height: 160px;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    background: white;
+}
+
+.project .box2 {
+    text-align: center;
+}
+
+.project .box2 h3{
+    font-weight: 400;
+}
+
+.project .box2 h3 img {
+    opacity: 50%;
+    scale: 0.8;
+}
+
+.project .box2 .imgbox {
+    position: relative;
+    width: 100%;
+    max-width: 400px;
+    height: 300px;
+    margin: 0 auto;
+}
+
+.project .box2 .imgbox .bestimg {
+    width: 100%;
+    left: 0;
+    top: 0;
+    position: absolute;
+    aspect-ratio: 1/0.65;
+    object-fit: cover;
+    object-position: top center;
+}
+
+.project .box2 .imgbox .bestimg:nth-child(1) {
+    filter: blur(10px);
+    transform: translate(0, 20px);
+    opacity: 70%;
+    scale: 0.98;
+}
+
+.project .box2 .para{
+    max-width: 700px;
+    padding: 10px;
+    margin: 0 auto;
+}

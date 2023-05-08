@@ -1,0 +1,176 @@
+.about {
+    width: 100vw;
+    overflow-x: hidden;
+    background: #e7ebf1;
+    box-sizing: border-box;
+    padding: 10px;
+    color: #2a4b6ac4;
+    position: relative;
+    z-index: 1;
+}
+
+.about .lightcircle {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background: #2B8AC3;
+    filter: blur(145px);
+    right: 0%;
+    top: 40%;
+    z-index: -1;
+    border-radius: 50%;
+}
+
+.about .title {
+
+    gap: 30px;
+    margin-top: 50px;
+}
+
+
+.about .box {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 50px;
+}
+
+.about .box .photo {
+    min-width: 250px;
+    background: url(https://htmlburger.com/blog/wp-content/uploads/2021/08/UI-Animations-Example-01.gif);
+    background-position: center center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+}
+
+.about .box2 {
+    align-items: center;
+
+}
+
+.about .box2 .photo2 {
+    background: url(../../assets\about-photo2.png);
+    background-position: center bottom;
+    background-size: cover;
+    box-shadow: none;
+    background-position: top center;
+    min-width: 300px;
+    min-height: 200px;
+    filter: drop-shadow(-5px 5px 10px rgba(137, 218, 255, 0.392));
+}
+
+.about .box .content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.about .box .content .box-tile {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.about .box .content .box-tile .card {
+    background: #ffffff9a;
+    backdrop-filter: blur(100px) !important;
+    padding: 5px;
+    border: 2px solid #5bbbff5d;
+    border-radius: 5px;
+    transition: 0.5s;
+    width: 100%;
+}
+
+.about .box .content .box-tile .card:hover {
+    box-shadow: rgb(135, 152, 173) 0px 20px 30px -10px;
+}
+
+
+
+
+.about .box .content .box-tile .card .card-bar {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 13px;
+    font-weight: 600;
+    margin-bottom: 5px;
+    gap: 5px;
+}
+
+.about .box .content .box-tile .card .card-content {
+    padding: 0 5px;
+    font-size: 13px;
+}
+
+@media only screen and (max-device-width: 480px) {
+    .about .box {
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .about .box .photo {
+        width: 100%;
+        min-height: 230px;
+        background-size: cover;
+    }
+
+    .about .box .content {
+        margin-top: 20px;
+    }
+
+    .about .box .content .box-tile {
+        flex-direction: column;
+        margin-top: 20px;
+    }
+
+    .about .box .content .box-tile .card {
+        width: 93%;
+        margin-left: 7%;
+        position: relative;
+    }
+
+    .about .box .content .box-tile .card::before {
+        content: "";
+        display: block;
+        background: transparent;
+        position: absolute;
+        margin-left: -30px;
+        margin-top: 7px;
+        width: 13px;
+        height: 13px;
+        border-radius: 50%;
+        border: 2px solid #5bbaff;
+    }
+
+    .about .box .content .box-tile .card::after {
+        content: " ";
+        background: #5bbaff;
+        position: absolute;
+        margin-top: 27px;
+        top: 0;
+        width: 2px;
+        height: 108%;
+        margin-left: -23px;
+    }
+
+    .about .box .content .box-tile .card:last-child::after {
+        display: none;
+    }
+
+    .about .box .content .box-tile .card:hover::before {
+        background: #5bbaff;
+    }
+
+    .about .box .content .box-tile .card .card-bar {
+        font-size: 15px;
+    }
+
+    .about .box .content .box-tile .card .card-content {
+        font-size: 15px;
+    }
+}

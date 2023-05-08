@@ -1,0 +1,46 @@
+.contact {
+    width: 100vw;
+    overflow-x: hidden;
+    background: #e7ebf1;
+    box-sizing: border-box;
+    color: #2a4b6ac4;
+    position: relative;
+    padding: 10px;
+    z-index: 1;
+}
+
+.contact i {
+    font-weight: 600;
+}
+
+.contact a {
+    color: #2a4b6a7a;
+}
+
+.contact a:hover {
+    text-decoration: underline;
+    color: #2a4b6a81;
+}
+
+.contact .options {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.contact .options ul {
+    width: 200px;
+    list-style: none;
+}
+
+.contact .options ul li:first-child {
+    margin-bottom: 10px;
+}
+
+.contact .options img {
+    width: 23px;
+    margin-right: 10px;
+    opacity: 50%;
+}
