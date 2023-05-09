@@ -53,7 +53,7 @@ function Skill() {
                                 <h1>{count}+</h1>
                                 <p><small><b><i>completed project !</i></b></small></p>
                             </div>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, ducimus.</p>
+                            <p>Created more than 50 projects. Some are there in my Github.</p>
                         </div>
                     </div>
                 </div>

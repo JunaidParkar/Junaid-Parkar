@@ -1,6 +1,7 @@
 import './css/Home.css'
 import bird1 from '../assets/bird1.png'
 import bird2 from '../assets/bird2.png'
+import { createCV } from '../cv/createCV';
 
 function Home() {
     const box3_paragraph = `Interested in learning more about my skills and experience? Download my resume to see how I can help you achieve your goals. Simply click the button below to get started`;
@@ -22,7 +23,7 @@ function Home() {
                                 <b>Turning your dreams into
                                     reality</b>
                             </p>
-                            <button>Download cv</button>
+                            <button onClick={(e) => createCV(e)} >Download cv</button>
                         </div>
                     </div>
                 </div>
