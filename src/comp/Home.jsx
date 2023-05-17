@@ -8,7 +8,7 @@ function Home() {
 
     return (
         <>
-            <div className='home'>
+            <div className='home' id='home'>
                 <div className="box box1">
                     <div className="sec">
                         <div className="sec1 logo">
@@ -34,10 +34,10 @@ function Home() {
                     <div className="sec">
                         <div className="sec1 nav">
                             <ul>
-                                <li className='active'><span></span>Home</li>
-                                <li><span></span>About</li>
-                                <li><span></span>Project</li>
-                                <li><span></span>Contact</li>
+                                <li className='active'><span></span><a href="#home">Home</a></li>
+                                <li><span></span><a href="#about">About</a></li>
+                                <li><span></span><a href="#project">Project</a></li>
+                                <li><span></span><a href="#contact">Contact</a></li>
                             </ul>
                         </div>
                         <div className="sec1 bird"><img src={bird2} /></div>
