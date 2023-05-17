@@ -12,7 +12,7 @@ import { EffectCoverflow, Pagination } from "swiper";
 function Project() {
     return (
         <>
-            <div className="project">
+            <div className="project" id='project'>
                 <div className="container">
                     <div className="title">
                         <div className="heading">Project</div>
