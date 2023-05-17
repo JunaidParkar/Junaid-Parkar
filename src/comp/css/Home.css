@@ -146,6 +146,13 @@
     position: relative;
 }
 
+.home .box.box3 .sec1.nav ul li a{
+    z-index: 2;
+    position: relative;
+    color: inherit;
+    opacity: 70%;
+}
+
 .home .box.box3 .sec1.nav ul li.active span,
 .home .box.box3 .sec1.nav ul li:hover span {
     background: linear-gradient(#48b3ff65, transparent);
@@ -156,6 +163,7 @@
     display: block;
     margin-left: -10px;
     position: absolute;
+    z-index: 0;
 }
 
 @media only screen and (max-device-width: 480px) {

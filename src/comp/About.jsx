@@ -7,7 +7,7 @@ function About() {
 
     return (
         <>
-            <div className="about">
+            <div className="about" id='about'>
                 <div className="lightcircle"></div>
                 <div className="container">
                     <div className="title">
