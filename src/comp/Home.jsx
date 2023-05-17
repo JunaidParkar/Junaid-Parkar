@@ -23,7 +23,7 @@ function Home() {
                                 <b>Turning your dreams into
                                     reality</b>
                             </p>
-                            <button onClick={(e) => createCV(e)} >Download cv</button>
+                            <button onClick={(e) => createCV(e)} >Download CV</button>
                         </div>
                     </div>
                 </div>
