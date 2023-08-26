@@ -75,7 +75,7 @@ function Project() {
                     </div>
 
                     <p className='para'>
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Id accusamus maiores quisquam corrupti, assumenda voluptatum! Dolores magni nemo sint cupiditate impedit voluptatum inventore repudiandae blanditiis? Reiciendis fugit inventore in labore
+                    Elevating Ideas through Code: The Nexus Where Vision Meets Innovation. <br />In the realm of development, I orchestrate digital symphonies using Python's precision, React's interactivity, JS's dynamism, PHP's versatility, and a diverse arsenal of technologies. Every project is a canvas where imagination finds expression, seamlessly blending creativity with cutting-edge solutions. Join me in traversing this realm where lines of code transcend into immersive experiences, igniting possibilities and reshaping digital landscapes.
                     </p>
                     <br /><br /><br />
                 </div>

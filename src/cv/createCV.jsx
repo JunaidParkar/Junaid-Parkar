@@ -4,11 +4,11 @@ import { app } from './firebaseConfig';
 
 export const createCV = async () => {
   try {
-    const storageRef = ref(getStorage(app), "Resume - Junaid Parkar.pdf");
+    const storageRef = ref(getStorage(app), "Resume - Junaid Parkar.zip");
     const blob = await getBlob(storageRef);
     const anchor = document.createElement('a');
     anchor.href = URL.createObjectURL(blob);
-    anchor.download = 'Junaid parkar resume.pdf';
+    anchor.download = 'Junaid parkar resume.zip';
     anchor.click();
     URL.revokeObjectURL(anchor.href);
     anchor.remove();

@@ -4,3 +4,4 @@ firebase.json
 .firebase
 dist
 .env
+storage.rules

@@ -32,10 +32,10 @@ function Contact() {
                         <ul>
                             <li><i>Social</i></li>
                             <li>
-                                <a href="https://www.instagram.com/Junaid_parkar25/"><img className='instagram' src="https://img.icons8.com/?size=1x&id=32292&format=png" alt="" /></a>
-                                <a href="https://twitter.com/JunaidParkar8"><img className='instagram' src="https://img.icons8.com/?size=1x&id=437&format=png" alt="" /></a>
-                                <a href="https://www.facebook.com/people/Junaid-Parkar/100091830905870/"><img className='instagram' src="https://img.icons8.com/?size=1x&id=60459&format=png" alt="" /></a>
-                                <a href="https://github.com/JunaidParkar"><img className='instagram' src="https://img.icons8.com/?size=1x&id=12598&format=png" alt="" /></a>
+                                <a target='_blank' href="https://www.instagram.com/Junaid_parkar25/"><img className='instagram' src="https://img.icons8.com/?size=1x&id=32292&format=png" alt="" /></a>
+                                <a target='_blank' href="https://twitter.com/JunaidParkar8"><img className='instagram' src="https://img.icons8.com/?size=1x&id=437&format=png" alt="" /></a>
+                                <a target='_blank' href="https://www.facebook.com/people/Junaid-Parkar/100091830905870/"><img className='instagram' src="https://img.icons8.com/?size=1x&id=60459&format=png" alt="" /></a>
+                                <a target='_blank' href="https://github.com/JunaidParkar"><img className='instagram' src="https://img.icons8.com/?size=1x&id=12598&format=png" alt="" /></a>
                             </li>
                         </ul>
 
